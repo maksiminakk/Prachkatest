@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prachka</title>
+    <meta name="description" content="Описание">
+    <meta name="keywords" content="Ключевики">
+    <meta name="author" content="Автор">
+    <meta name="image" content="img/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Название">
+    <meta property="og:description" content="Описание">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:url" content="https://example.com">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Название">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <!-- подключение стилей слайдера: Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <a href="/index.html" class="header__logo logo">
+                    <img src="img/logos/logo.svg" alt="">
+                </a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <div class="menu__close-icon">
+                            <img src="img/icons/close.svg" alt="">
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__point menu__point-active">
+                                <a href="" class="menu__link menu__link-active sub-text">
+                                    <img src="img/icons/home.svg" alt="">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="menu__point">
+                                <a href="" class="menu__link sub-text">
+                                    <img src="img/icons/my-orders.svg" alt="">
+                                    Мои заказы
+                                </a>
+                            </li>
+                            <li class="menu__point">
+                                <a href="" class="menu__link sub-text">
+                                    <img src="img/icons/my-orders.svg" alt="">
+                                    Профиль
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="menu__item">
+                            <a href="" class="menu__phone phone">+7 (000) 000-00-00</a>
+                            <a href="" class="menu__avatar">
+                                <img class="ibg" src="img/avatar.png" alt="">
+                            </a>
+                        </div>
+                        <a href="" class="menu__button button">
+                            Связаться с нами
+                        </a>
+                        <div class="menu__mask">
+                        </div>
+                    </nav>
+                </div>
+            </div>    
+        </header>
+        <main class="main">
+            <div class="main__container container">
+                <div class="main__body">
+                    <div class="main__row main__row_b">
+                        <div class="main__item main__item-slider">
+                            <div class="swiper main__slider slider">
+                                <div class="swiper-wrapper slider__body">
+                                    <div class="swiper-slide slider__slide">
+                                        <img src="img/slider/image.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide slider__slide">
+                                        <img src="img/slider/image.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide slider__slide">
+                                        <img src="img/slider/image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__item main__item-content">
+                            <form class="main__form form">
+                                <div class="form__top">
+                                    <h1 class="form__title title">
+                                        Привязать сумки
+                                    </h1>
+                                    <div class="form__item form__item_center">
+                                        <div class="form__field form__field_height">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <div class="form__line">
+                                            </div>
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <input maxlength="1" id="codeInput" type="text"
+                                                class=" form__input_code form__input_code-white">
+                                            <!-- <input  maxlength="4" id="codeInput" type="text" class=" form__input_code form__input_code-right">
+                                            <label for="codeInput" class="form__rectangle"></label>
+                                            <label for="codeInput" class="form__rectangle"></label>
+                                            <label for="codeInput" class="form__rectangle"></label>
+                                            <label for="codeInput" class="form__rectangle form__rectangle_last"></label>
+                                            <label for="codeInput" class="form__rectangle"></label>
+                                            <label for="codeInput" class="form__rectangle"></label>
+                                            <label for="codeInput" class="form__rectangle"></label>
+                                            <label for="codeInput" class="form__rectangle "></label> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__bottom">
+                                    <div class="form__item">
+                                        <input checked id="regulationsInput" type="checkbox" class="form__input">
+                                        <label for="regulationsInput" class="form__label"> <span> Я прочитал и принимаю <a class="form__link"
+                                            href=""> договор-оферту</a></span></label>
+                                    </div>
+                                    <div class="form__item form__item_checkbox">
+                                        <input id="agreementInput" type="checkbox" class="form__input">
+                                        <label for="agreementInput" class="form__label"> <span> Согласен на обработку <a class="form__link"
+                                                    href="">персональных данных</a></span>
+                                    </div>
+                                    <a href="/stage-three.html" class="button form__button">
+                                        Продолжить
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- подключение слайдера : Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- подключение спойлеров: -->
+    <!-- <script src="js/spollers.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
